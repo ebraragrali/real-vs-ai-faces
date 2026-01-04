@@ -91,21 +91,24 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 <p align="center"> <img src="results/resnet50_finetuned/loss_curves.png" width="45%" /> <img src="results/resnet50_finetuned/acc_curves.png" width="45%" /> </p>
 
 ---
-
 ## Inference Demo (External Images)
 
 Below are example predictions on external images that were not part of the training dataset.
 
-### Fake Image Example
-<p align="center"> <img src="demo/out_fake.jpg" width="45%" /> </p>
+<p align="center">
+  <img src="demo/out_fake.jpg" width="45%" />
+  <img src="demo/out_real.jpg" width="45%" />
+</p>
 
-- **SimpleCNN:** Fake (83.67%)
-- **ResNet50:** Fake (84.85%)
+<p align="center">
+  <b>Fake Image Prediction</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Real Image Prediction</b>
+</p>
 
----
+- **Fake Image**
+  - SimpleCNN: Fake (83.67%)
+  - ResNet50: Fake (84.85%)
 
-### Real Image Example
-<p align="center"> <img src="demo/out_real.jpg" width="45%" /> </p>
-
-- **SimpleCNN:** Real (99.99%)
-- **ResNet50:** Real (100.00%)
+- **Real Image**
+  - SimpleCNN: Real (99.99%)
+  - ResNet50: Real (100.00%)
