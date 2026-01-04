@@ -95,14 +95,14 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 ## Training Curves and Evaluation Results
 
 ### SimpleCNN
-![SimpleCNN Loss](results/simplecnn/loss_curve.png)
-![SimpleCNN Accuracy](results/simplecnn/acc_curve.png)
+![SimpleCNN Loss](results/simplecnn/loss_curves.png)
+![SimpleCNN Accuracy](results/simplecnn/acc_curves.png)
 
 ---
 
 ### ResNet50 (Fine-tuned)
-![ResNet50 Loss](results/resnet50_finetuned/loss_curve.png)
-![ResNet50 Accuracy](results/resnet50_finetuned/acc_curve.png)
+![ResNet50 Loss](results/resnet50_finetuned/loss_curves.png)
+![ResNet50 Accuracy](results/resnet50_finetuned/acc_curves.png)
 
 ---
 
@@ -111,7 +111,7 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 Below are example predictions on external images that were not part of the training dataset.
 
 ### Fake Image Example
-![Fake Demo](demo/fake_demo.png)
+![Fake Demo](demo/out_fake.png)
 
 - **SimpleCNN:** Fake (83.67%)
 - **ResNet50:** Fake (84.85%)
@@ -119,7 +119,7 @@ Below are example predictions on external images that were not part of the train
 ---
 
 ### Real Image Example
-![Real Demo](demo/real_demo.png)
+![Real Demo](demo/out_real.png)
 
 - **SimpleCNN:** Real (99.99%)
 - **ResNet50:** Real (100.00%)
