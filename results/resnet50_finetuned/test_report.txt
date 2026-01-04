@@ -1,0 +1,16 @@
+Test Accuracy: 0.996350
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00     10000
+        real       1.00      1.00      1.00     10000
+
+    accuracy                           1.00     20000
+   macro avg       1.00      1.00      1.00     20000
+weighted avg       1.00      1.00      1.00     20000
+
+
+Confusion Matrix:
+[[9963   37]
+ [  36 9964]]
