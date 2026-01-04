@@ -48,18 +48,6 @@ each training script.
 
 Example configuration: CFG.base_dir = "/path/to/dataset"
 
-Expected directory structure:
-dataset/
-├── train/
-│ ├── real/
-│ └── fake/
-├── val/
-│ ├── real/
-│ └── fake/
-└── test/
-├── real/
-└── fake/
-
 ---
 
 ## Installation
@@ -95,14 +83,11 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 ## Training Curves and Evaluation Results
 
 ### SimpleCNN
-![SimpleCNN Loss](results/simplecnn/loss_curves.png)
-![SimpleCNN Accuracy](results/simplecnn/acc_curves.png)
-
+<p align="center"> <img src="results/simplecnn/loss_curves.png" width="45%" /> <img src="results/simplecnn/acc_curves.png" width="45%" /> </p>
 ---
 
 ### ResNet50 (Fine-tuned)
-![ResNet50 Loss](results/resnet50_finetuned/loss_curves.png)
-![ResNet50 Accuracy](results/resnet50_finetuned/acc_curves.png)
+<p align="center"> <img src="results/resnet50_finetuned/loss_curves.png" width="45%" /> <img src="results/resnet50_finetuned/acc_curves.png" width="45%" /> </p>
 
 ---
 
@@ -111,7 +96,7 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 Below are example predictions on external images that were not part of the training dataset.
 
 ### Fake Image Example
-![Fake Demo](demo/out_fake.png)
+<p align="center"> <img src="demo/out_fake.jpg" width="45%" /> </p>
 
 - **SimpleCNN:** Fake (83.67%)
 - **ResNet50:** Fake (84.85%)
@@ -119,7 +104,7 @@ Below are example predictions on external images that were not part of the train
 ---
 
 ### Real Image Example
-![Real Demo](demo/out_real.png)
+<p align="center"> <img src="demo/out_real.jpg" width="45%" /> </p>
 
 - **SimpleCNN:** Real (99.99%)
 - **ResNet50:** Real (100.00%)
