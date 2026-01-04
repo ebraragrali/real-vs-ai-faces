@@ -43,10 +43,11 @@ For each model, the following outputs are provided:
 
 The dataset is a binary face image dataset consisting of two classes: **real** and **fake**.
 
-The dataset root directory is specified using the `CFG.base_dir` variable inside
-each training script.
+Dataset source (Kaggle):  
+https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces
 
-Example configuration: CFG.base_dir = "/path/to/dataset"
+The dataset path is specified using the `CFG.base_dir` variable inside each
+training script.
 
 ---
 
