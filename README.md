@@ -85,7 +85,7 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 
 ### SimpleCNN
 <p align="center"> <img src="results/simplecnn/loss_curves.png" width="45%" /> <img src="results/simplecnn/acc_curves.png" width="45%" /> </p>
----
+
 
 ### ResNet50 (Fine-tuned)
 <p align="center"> <img src="results/resnet50_finetuned/loss_curves.png" width="45%" /> <img src="results/resnet50_finetuned/acc_curves.png" width="45%" /> </p>
