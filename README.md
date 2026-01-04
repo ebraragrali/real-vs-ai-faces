@@ -96,16 +96,13 @@ Make sure `CFG.base_dir` is set correctly before running the scripts.
 
 ### SimpleCNN
 ![SimpleCNN Loss](results/simplecnn/loss_curve.png)
-![SimpleCNN Accuracy](results/simplecnn/accuracy_curve.png)
-![SimpleCNN Confusion Matrix](results/simplecnn/confusion_matrix.png)
+![SimpleCNN Accuracy](results/simplecnn/acc_curve.png)
 
 ---
 
 ### ResNet50 (Fine-tuned)
 ![ResNet50 Loss](results/resnet50_finetuned/loss_curve.png)
-![ResNet50 Accuracy](results/resnet50_finetuned/accuracy_curve.png)
-![ResNet50 Confusion Matrix](results/resnet50_finetuned/confusion_matrix.png)
-
+![ResNet50 Accuracy](results/resnet50_finetuned/acc_curve.png)
 
 ---
 
