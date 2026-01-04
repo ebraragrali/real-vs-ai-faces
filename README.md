@@ -97,7 +97,7 @@ Below are example predictions on external images that were not part of the train
 
 <p align="center">
   <img src="demo/out_fake.jpg" width="45%" />
-  <img src="demo/out_real.jpg" width="35%" />
+  <img src="demo/out_real.jpg" width="38%" />
 </p>
 
 <p align="center">
